@@ -59,19 +59,24 @@
             </p>
             <p>Le varie aree saranno quindi suddivise in:</p>
             <ul>
-              <li>Contenuti di intestazione del tag &lt; header&gt;</li>
-              <li>Contenuti centrali variabili del tag &lt;main&gt;</li>
+              <li>
+                Contenuti di intestazione del tag
+                <span class="codice"> &lt;header&gt;</span>
+              </li>
+              <li>
+                Contenuti centrali variabili del tag
+                <span class="codice"> &lt;main&gt;</span>
+              </li>
               <li>
                 Contenuti di fine pagina comuni, da inserire nel tag
-                &lt;footer&gt;
+                <span class="codice"> &lt;footer&gt;</span>
               </li>
             </ul>
           </div>
-
-          <h4>Formattazione del codice</h4>
           <p>
-            Il testo dell'articlio dovrà essere formattato per identificare
-            tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+            Formattazione del codice. Il testo dell'articlio dovrà essere
+            formattato per identificare tutte le parti da selezionare con i CSS.
+            Perciò i passi saranno:
           </p>
           <ul>
             <li>
@@ -91,7 +96,7 @@
           <caption>
             Diffusione dei CSS
           </caption>
-          <tr>
+          <tr class="HeadTR">
             <th>Anno</th>
             <th>% di utilizzo</th>
             <th>Supporto browsers</th>
@@ -142,7 +147,7 @@
       </section>
       <section id="form">
         <div>
-          <h2>NOVITà</h2>
+          <h2>NOVITÀ</h2>
           <p>
             ​Vuoi rimanere aggiornato su altre novità del blog?Iscriviti alla
             nostra newsletter ​
@@ -153,7 +158,7 @@
               type="email"
               id="email"
               required
-              placehlider="Inserisci l'email"
+              placeholder="Inserisci l'email"
             />
             <button type="button">Iscriviti!</button>
           </form>
@@ -161,28 +166,40 @@
       </section>
       <aside>
         <section id="articoli-correlati">
-          <h4>ARTICOLI CORRELATI</h4>
+          <h4 id="titoloArticoliCorrelati">ARTICOLI CORRELATI</h4>
           <div>
             <h4>Validare il codice HTML</h4>
-            <p>Categoria: develop</p>
-            <time datetime="2020-18-09">Data: 18-09-2020</time>
+            <p class="categoria">
+              <i class="fas fa-tag"></i> Categoria: develop
+            </p>
+            <time datetime="2020-18-09"
+              ><i class="fas fa-calendar-alt"></i> Data: 18-09-2020</time
+            >
           </div>
           <div>
             <h4>Correggere la sintassi</h4>
-            <p>Categoria: develop</p>
-            <time datetime="2020-16-09">Data: 16-9-2020</time>
+            <p class="categoria">
+              <i class="fas fa-tag"></i> Categoria: develop
+            </p>
+            <time datetime="2020-16-09"
+              ><i class="fas fa-calendar-alt"></i> Data: 16-9-2020</time
+            >
           </div>
 
           <div>
             <h4>Meno Kb nella pagina</h4>
-            <p>Categoria: ottimizzazione</p>
-            <time datetime="2020-30-09">Data: 30-9-2020</time>
+            <p class="categoria">
+              <i class="fas fa-tag"></i> Categoria: ottimizzazione
+            </p>
+            <time datetime="2020-30-09"
+              ><i class="fas fa-calendar-alt"></i> Data: 30-9-2020</time
+            >
           </div>
         </section>
       </aside>
     </main>
     <footer>
-      <p>Blog Epicode ©2023</p>
+      <p class="footerBlog">Blog Epicode ©2023</p>
       <p>
         Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
         Luigi Einaudi 2 - Milano. P.IVA 00112233. info@epicode.scholi -
