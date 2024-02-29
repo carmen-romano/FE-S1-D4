@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header, main {
+    margin-bottom: 4vw ;
+    -webkit-box-shadow: -3px 12px 7px -5px #000000; 
+box-shadow: -3px 12px 7px -5px #000000;
+}
+body{font-family: "Poppins", sans-serif;
+    margin: 4vw;
+    background-image: url(/assets/img/sfondo.png)
+}
+header {font-weight: 500;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(5deg, #006a88, #009dc3);
+div {    text-align: center;
+   
+    padding: 5vw;} h1 {
+        margin: 5vw;
+    }}
+main{
+    padding: 8vw 3vw;
+    background-color: white;
+}
+footer {
+    box-sizing: border-box;
+    padding: 4vw;
+    color: white;
+    background-image: linear-gradient(358deg, #2d3737, #005566); p {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        text-align: center;
+      font-size: 1.1em;
+      word-spacing: 6px;
+    }
+}
+footer a {
+    color: #d739d9;
+}
+nav a{
+   text-decoration: none;
+   color: white;
+}
+nav li  {margin:10px;}
+/*MAIN*/
+main p{
+    color: #383838;
+    margin-top: 5vw;
+    margin-bottom: 9vw;
+    font-size: 1.2em;
+}
+button{
+    font-size: 0.7em;
+    height: 6vw;
+    width: 21vw;
+    color: white;
+    background-color: #396dcb;
+}
+section{
+    margin-bottom: 11vw;
+}
+
+.titolo-articolo h2{
+    margin-bottom: 10vw;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.titolo-articolo p{
+    display: inline;
+    color: #b2b2b2;
+    font-size: 0.90em;
+    
+}
+main ul  {
+    list-style-type: disc;
+    color: #383838;
+    margin-top: 5vw;
+    margin-bottom: 9vw;
+    font-size: 1.2em;
+ 
+}
+table{
+    text-align: center;
+    width: 80%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: #F8F8F8;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table td, table th {
+    border-width: 1px;
+    border-color: #F8F8F8;
+    border-style: solid;
+    padding: 1vw;
+  }
+  
+  th{
+    color: white;
+    background-color: #3a6dc3;
+  }
+  .tr-color{
+    background-color: #f2f2f2;
+  }
+  #frameYoutube p {
+    font-weight: 400;
+    font-size: larger;
+  }
+  iframe{   
+    width: 100%;
+     height: 40vw;
+    border-radius: 10vw;
+}
+  #form div{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3vw;
+    width: 100%;
+    font-size: 1.8em;
+    background-color: #e1e1e2;
+  }
+  #articoli-correlati div{
+    background-color: #e1e0e1;
+    border: 1px solid #cccccc;
+    margin-bottom: 8vw;
+    padding: 5vw;
+    font-size: x-large;    
+  }
+#articoli-correlati.h4{
+    margin-bottom: 8vw;
+    font-weight: 400;
+    font-size: 2.5em;
+
+  }
